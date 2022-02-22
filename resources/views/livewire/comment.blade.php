@@ -1,10 +1,11 @@
 <div>
-    <section class="py-5" xmlns:wire="http://www.w3.org/1999/xhtml">
+    <section class="py-5">
         <div class="container">
             <div class="row">
+
                 <div class="col-md-10">
                     <input type="text" wire:model="newComment">
-                    <button type="button" wire:click="addComment">Post</button>
+                    <button type="button" wire:click="addComment" >Post</button>
                 </div>
             </div>
         </div>
